@@ -39,4 +39,5 @@ This utility saves manual typing and copy-pasting by:
 2. Generating ssh commands
 
 Dependencies: ssh, sshpass
+
 Optional Dependencies: git, xclip, xdg-open
