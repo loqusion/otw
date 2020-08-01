@@ -9,6 +9,8 @@ sudo apt install ssh sshpass
 git clone https://github.com/Flandre-X/otw.git
 ```
 
+**Warning:** ssh and sshpass are required to use this utility. Make sure they are accessible from `$PATH`.
+
 ### Optional
 
 ```bash
@@ -21,10 +23,6 @@ This utility saves manual typing and copy-pasting by:
 
 1. Managing level passwords automatically
 2. Generating ssh commands
-
-Dependencies: ssh, sshpass
-
-Optional Dependencies: git, xclip, xdg-open
 
 ## Usage
 
