@@ -35,7 +35,7 @@ $ ./otw <game> <level>
 # e.g.: ./otw bandit 3
 ```
 
-You can also omit `<level`, which tells otw to use the highest level you reached (or level 0 if no level passwords are found).
+You can also omit `<level>`, which tells otw to use the highest level you reached (or level 0 if no level passwords are found).
 
 ```bash
 $ ./otw bandit
