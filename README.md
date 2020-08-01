@@ -34,12 +34,13 @@ Running otw assumes that `<game>` exists within the current directory. You can c
 
 ```bash
 $ ./otw <game> <level>
+# e.g.: ./otw bandit 3
 ```
 
-For example,
+You can also omit `<level`, which tells otw to use the highest level you reached (or level 0 if no level passwords are found).
 
 ```bash
-$ ./otw bandit 3
+$ ./otw bandit
 ```
 
 To see more options, run `./otw --help`.
