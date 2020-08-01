@@ -1,4 +1,4 @@
-# overthewire
+# otw
 
 A command line convenience utility for [OverTheWire](https://overthewire.org).
 
