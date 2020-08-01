@@ -30,16 +30,16 @@ Optional Dependencies: git, xclip, xdg-open
 
 **Warning:** otw will store passwords within the current working directory. Make sure you always run it in the same directory, or else unexpected results will ensue!
 
+Running otw assumes that `<game>` exists within the current directory. You can create it by running `mkdir <game>`, e.g. `mkdir bandit`.
+
 ```bash
-# Assumes that ./<game> directory exists
-./otw <game> <level>
+$ ./otw <game> <level>
 ```
 
 For example,
 
 ```bash
-# Assumes that ./bandit directory exists
-./otw bandit 3
+$ ./otw bandit 3
 ```
 
 To see more options, run `./otw --help`.
