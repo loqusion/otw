@@ -15,22 +15,6 @@ git clone https://github.com/Flandre-X/otw.git
 sudo apt install xclip xdg-utils
 ```
 
-## Usage
-
-**Warning:** otw will store passwords within the current working directory. Make sure you always run it in the same directory, or else unexpected results will ensue!
-
-```bash
-./otw <game> <level>
-```
-
-For example,
-
-```bash
-./otw bandit 3
-```
-
-To see more options, run `./otw --help`.
-
 ## Introduction
 
 This utility saves manual typing and copy-pasting by:
@@ -41,3 +25,21 @@ This utility saves manual typing and copy-pasting by:
 Dependencies: ssh, sshpass
 
 Optional Dependencies: git, xclip, xdg-open
+
+## Usage
+
+**Warning:** otw will store passwords within the current working directory. Make sure you always run it in the same directory, or else unexpected results will ensue!
+
+```bash
+# Assumes that ./<game> directory exists
+./otw <game> <level>
+```
+
+For example,
+
+```bash
+# Assumes that ./bandit directory exists
+./otw bandit 3
+```
+
+To see more options, run `./otw --help`.
