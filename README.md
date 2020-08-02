@@ -35,7 +35,7 @@ $ ./otw <game> <level>
 # e.g.: ./otw bandit 3
 ```
 
-Don't worry about deleting the `/` if you use autocomplete! otw is smart and will figure out what you mean. Thus, the following line is equivalent:
+Don't worry about deleting the trailing `/` if you use autocomplete! otw is smart and will figure out what you mean. Thus, the following line is equivalent:
 
 ```bash
 $ ./otw <game>/ <level>
