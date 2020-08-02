@@ -35,6 +35,12 @@ $ ./otw <game> <level>
 # e.g.: ./otw bandit 3
 ```
 
+Don't worry about deleting the `/` if you use autocomplete! otw is smart and will figure out what you mean. Thus, the following line is equivalent:
+
+```bash
+$ ./otw <game>/ <level>
+```
+
 You can also omit `<level>`, which tells otw to use the highest level you reached (or level 0 if no level passwords are found).
 
 ```bash
