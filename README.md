@@ -9,7 +9,7 @@ sudo apt install ssh sshpass
 git clone https://github.com/Flandre-X/otw.git
 ```
 
-**Warning:** ssh and sshpass are required to use this utility. Make sure they are accessible from `$PATH`.
+> **Warning:** ssh and sshpass are required to use this utility. Make sure they are accessible from `$PATH`.
 
 ### Optional
 
@@ -26,7 +26,7 @@ This utility saves manual typing and copy-pasting by:
 
 ## Usage
 
-**Warning:** otw will store passwords within the current working directory. Make sure you always run it in the same directory, or else unexpected results will ensue!
+> **Warning:** otw will store passwords within the current working directory. Make sure you always run it in the same directory, or else unexpected results will ensue!
 
 Running otw assumes that `<game>` exists within the current directory. You can create it by running `mkdir <game>`, e.g. `mkdir bandit`.
 
