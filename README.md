@@ -1,6 +1,6 @@
 # otw
 
-A command line convenience utility for [OverTheWire](https://overthewire.org).
+##### A password manager for [OverTheWire](https://overthewire.org).
 
 ## Installation
 
